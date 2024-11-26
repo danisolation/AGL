@@ -456,22 +456,33 @@ header {
     margin-top: 29.6px;
 }
 
-.line {
+.title-1 div:first-child {
     width: 214px;
-    height: 4px;
+}
+
+.line {
     background: var(--unnamed-color-42a7c2) 0% 0% no-repeat padding-box;
+    height: 4px;
+
 }
 
 .title-content {
-    margin-top: 25.08px;
+    margin-top: 21.08px;
 }
 
 .list-item {
     display: flex;
 }
 
-.item {
+.mt-1892{
     margin-top: 18.92px;
+}
+
+.mt-1592{
+    margin-top: 15.92px;
+}
+
+.item {
     width: 220px;
     height: 160px;
     background: var(--unnamed-color-eaf1f7) 0% 0% no-repeat padding-box;
@@ -508,10 +519,6 @@ header {
     margin: 0 75.29px 18px 64.71px;
 }
 
-.item-3 {
-    margin-right: 16px;
-}
-
 .item-3 div:first-child {
     margin: 36px 56px 28.74px 56.73px;
     width: 107px;
@@ -523,6 +530,100 @@ header {
     margin: 0 75.29px 15px 64.71px;
 }
 
-.title-2{
+.title-2 {
     margin-top: 50px;
+}
+
+.title-2 div:first-child {
+    width: 120px;
+}
+
+.item-4 {
+    margin-right: 17px;
+}
+
+.item-4 div:first-child {
+    margin: 30px 62.5px 22.5px 50px;
+    width: 108px;
+    height: 57px;
+    background: transparent url('../img/Group\ 47553.png') 0% 0% no-repeat padding-box;
+}
+
+.item-4 div:last-child {
+    margin: 0 83.2px 24px 72.8px;
+}
+
+.item-5 {
+    margin-right: 16px;
+}
+
+.item-5 div:first-child {
+    margin: 29.77px 57.79px 21.96px 53.59px;
+    width: 109px;
+    height: 57px;
+    background: transparent url('../img/Group\ 47556.png') 0% 0% no-repeat padding-box;
+}
+
+.item-5 div:last-child {
+    margin: 0 54px 27.15px 54px;
+}
+
+.item-6 {
+    margin-right: 17px;
+}
+
+.item-6 div:first-child {
+    margin: 31px 61.5px 22.4px 51px;
+    width: 108px;
+    height: 57px;
+    background: transparent url('../img/Group\ 47557.png') 0% 0% no-repeat padding-box;
+}
+
+.item-6 div:last-child {
+    margin: 0 58px 26.1px 58px;
+}
+
+.item-7 div:first-child {
+    margin: 35.58px 57.75px 31.89px 57.75px;
+    width: 105px;
+    height: 44px;
+    background: transparent url('../img/Group\ 47558.png') 0% 0% no-repeat padding-box;
+}
+
+.item-7 div:last-child {
+    margin: 0 70px 24.11px 70px;
+}
+
+.title-3 {
+    margin-top: 60px;
+}
+
+.title-3 div:first-child {
+    width: 120px;
+}
+
+.item-8 {
+    margin-right: 17px;
+}
+
+.item-8 div:first-child {
+    margin: 31.62px 42.56px 27px 43px;
+    width: 134px;
+height: 52px;
+    background: transparent url('../img/Group\ 47565.png') 0% 0% no-repeat padding-box;
+}
+
+.item-8 div:last-child {
+    margin: 0 46px 25px 46px;
+}
+
+.item-9 div:first-child {
+    margin: 29px 55.24px 24.63px 56px;
+    width: 109px;
+height: 57px;
+    background: transparent url('../img/Group\ 47563.png') 0% 0% no-repeat padding-box;
+}
+
+.item-9 div:last-child {
+    margin: 0 28px 25.19px 28px;
 }

@@ -1,4 +1,4 @@
 document.addEventListener("scroll", function () {
-    const stickyDiv = document.querySelector(".side-bar");
-    stickyDiv.style.top = `${window.scrollY}px`; 
+    const sideBar = document.querySelector(".side-bar");
+    sideBar.style.top = `${window.scrollY}px`; 
   });
