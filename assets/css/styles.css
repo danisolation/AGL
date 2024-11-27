@@ -33,9 +33,9 @@
 
 /* Character Styles */
 .unnamed-character-style-1 {
-    font-family: var(--unnamed-font-family-noto-sans-jp-bold);
+    font-family: "Noto Sans JP", sans-serif;
     font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
+    font-weight: 700;
     font-size: var(--unnamed-font-size-26);
     line-height: var(--unnamed-line-spacing-38);
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -43,9 +43,9 @@
 }
 
 .unnamed-character-style-2 {
-    font-family: var(--unnamed-font-family-noto-sans-jp-bold);
+    font-family: "Noto Sans JP", sans-serif;
     font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
+    font-weight: 700;
     font-size: var(--unnamed-font-size-20);
     line-height: var(--unnamed-line-spacing-29);
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -53,9 +53,9 @@
 }
 
 .unnamed-character-style-3 {
-    font-family: var(--unnamed-font-family-noto-sans-jp-bold);
+    font-family: "Noto Sans JP", sans-serif;
     font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
+    font-weight: 700;
     font-size: var(--unnamed-font-size-18);
     line-height: var(--unnamed-line-spacing-30);
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -63,9 +63,9 @@
 }
 
 .unnamed-character-style-4 {
-    font-family: var(--unnamed-font-family-noto-sans-jp-medium);
+    font-family: "Noto Sans JP", sans-serif;
     font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
+    font-weight: 500;
     font-size: var(--unnamed-font-size-16);
     line-height: var(--unnamed-line-spacing-30);
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -73,9 +73,9 @@
 }
 
 .unnamed-character-style-5 {
-    font-family: var(--unnamed-font-family-noto-sans-jp-medium);
+    font-family: "Noto Sans JP", sans-serif;
     font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
+    font-weight: 500;
     font-size: var(--unnamed-font-size-16);
     line-height: var(--unnamed-line-spacing-36);
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -83,9 +83,9 @@
 }
 
 .unnamed-character-style-6 {
-    font-family: var(--unnamed-font-family-noto-sans-jp-bold);
+    font-family: "Noto Sans JP", sans-serif;
     font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
+    font-weight: 700;
     font-size: var(--unnamed-font-size-18);
     line-height: var(--unnamed-line-spacing-27);
     letter-spacing: var(--unnamed-character-spacing-1-8);
@@ -93,9 +93,9 @@
 }
 
 .unnamed-character-style-7 {
-    font-family: var(--unnamed-font-family-noto-sans-jp-regular);
+    font-family: "Noto Sans JP", sans-serif;
     font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
+    font-weight: 400;
     font-size: var(--unnamed-font-size-16);
     line-height: var(--unnamed-line-spacing-24);
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -103,9 +103,9 @@
 }
 
 .unnamed-character-style-8 {
-    font-family: var(--unnamed-font-family-noto-sans-jp-regular);
+    font-family: "Noto Sans JP", sans-serif;
     font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
+    font-weight: 400;
     font-size: var(--unnamed-font-size-12);
     line-height: var(--unnamed-line-spacing-36);
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -113,9 +113,9 @@
 }
 
 .unnamed-character-style-9 {
-    font-family: var(--unnamed-font-family-noto-sans-jp-regular);
+    font-family: "Noto Sans JP", sans-serif;
     font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
+    font-weight: 400;
     font-size: var(--unnamed-font-size-16);
     line-height: var(--unnamed-line-spacing-24);
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -123,9 +123,9 @@
 }
 
 .unnamed-character-style-10 {
-    font-family: var(--unnamed-font-family-noto-sans-jp-regular);
+    font-family: "Noto Sans JP", sans-serif;
     font-style: var(--unnamed-font-style-normal);
-    font-weight: var(--unnamed-font-weight-normal);
+    font-weight: 400;
     font-size: var(--unnamed-font-size-14);
     line-height: var(--unnamed-line-spacing-20);
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -144,6 +144,18 @@ body {
     color: var(--primary-color);
 }
 
+.w-60 {
+    width: 60px;
+}
+
+.w-160 {
+    width: 160px;
+}
+
+.w-458 {
+    width: 458px;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -153,7 +165,7 @@ body {
     position: relative;
     margin-top: 10px;
     width: 220px;
-    height: 527px;
+    height: 521px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     border: 2px solid #E1E8EF;
 }
@@ -174,7 +186,6 @@ body {
 }
 
 .name p {
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/18px var(--unnamed-font-family-noto-sans-jp-bold);
     letter-spacing: var(--unnamed-character-spacing-1-8);
     color: var(--unnamed-color-ffffff);
     padding: 8px 6px 8px 8px;
@@ -677,17 +688,7 @@ header {
     background: var(--unnamed-color-42a7c2) 0% 0% no-repeat padding-box;
 }
 
-.w-60 {
-    width: 60px;
-}
 
-.w-160 {
-    width: 160px;
-}
-
-.w-458 {
-    width: 458px;
-}
 
 .mt-19 {
     margin-top: 19px;
@@ -738,6 +739,6 @@ footer {
     margin-left: 50px;
 }
 
-footer p{
+footer p {
     margin: 27px 0 29.82px 866px;
 }
