@@ -254,23 +254,23 @@ body {
     background: transparent url('../img/fa-solid fa-angle-right.png') 0% 0% no-repeat padding-box;
 }
 
-.list-icon-1{
+.list-icon-1 {
     margin: 26px 0 30.13px 0;
 }
 
-.list-icon-2{
+.list-icon-2 {
     margin: 27px 0 29.13px 0;
 }
 
-.list-icon-3{
+.list-icon-3 {
     margin: 30px 0 26.13px 0;
 }
 
-.list-icon-4{
+.list-icon-4 {
     margin: 28px 0 28.13px 0;
 }
 
-.list-icon-5{
+.list-icon-5 {
     margin: 29px 0 27.13px 0;
 }
 
@@ -280,11 +280,11 @@ body {
 }
 
 header {
-    margin: 28px 0 48.5px 0;
+    margin: 28px 0 48.5px -1px;
 }
 
 .top {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     display: flex;
     justify-content: space-between;
 }
@@ -294,11 +294,17 @@ header {
     align-items: center;
 }
 
+.left p {
+    width: 42px;
+    height: 20px;
+    margin-top: 2px;
+}
+
 .house {
     width: 18px;
     height: 16px;
     background: transparent url('../img/fa-house.png') 0% 0% no-repeat padding-box;
-    margin-right: 10.13px;
+    margin: 4px 10.13px 2.11px 0;
 }
 
 .right {
@@ -306,11 +312,15 @@ header {
     align-items: center;
 }
 
+.right p:first-child {
+    margin-bottom: 2px;
+}
+
 .envelope {
     width: 14px;
     height: 14px;
     background: transparent url('../img/fa-regular fa-envelope.png') 0% 0% no-repeat padding-box;
-    margin-left: 7px;
+    margin: 4px 0 4px 7px;
 }
 
 .top-text {
@@ -318,27 +328,27 @@ header {
 }
 
 .mail-text {
-    margin-left: 26.31px;
+    margin: 0 0 2px 26.31px;
 }
 
 .mail {
     width: 20px;
     height: 15px;
     background: transparent url('../img/fa-solid fa-arrow-up-right-from-square.png') 0% 0% no-repeat padding-box;
-    margin-left: 7.69px;
+    margin: 3px 0 4px 7.69px;
 }
 
 .search-container {
     background: var(--unnamed-color-eaf1f7) 0% 0% no-repeat padding-box;
     height: 90px;
+    width: 930px;
     border-radius: 50px;
     display: flex;
-    align-items: center;
 }
 
 .search-content {
     text-align: left;
-    margin-left: 85px;
+    margin: 32px 0 34px 85px;
 }
 
 .search-box {
@@ -349,7 +359,7 @@ header {
     border-radius: 25px;
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    margin: 20px 0 20px 20px;
 }
 
 .search-icon {
@@ -360,9 +370,12 @@ header {
     border: none;
     outline: none;
     flex: 0.99;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/18px Helvetica Neue;
-    letter-spacing: var(--unnamed-character-spacing-0);
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
     text-align: left;
+    color: #afafaf;
 }
 
 .search-button {
@@ -371,7 +384,7 @@ header {
     background: var(--unnamed-color-42a7c2) 0% 0% no-repeat padding-box;
     border-radius: 10px;
     border: none;
-    margin-left: 13px;
+    margin: 20px 100px 21px 13px;
     cursor: pointer;
 }
 
