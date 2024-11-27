@@ -173,14 +173,14 @@ body {
 .logo {
     width: 163px;
     height: 54px;
-    margin: 30.03px 29px 17.86px 23.68px;
+    margin: 32.03px 31px 17.86px 25.68px;
     background: transparent url('../img/アートワーク 7.png') 0% 0% no-repeat padding-box;
 }
 
 .name {
     width: 176px;
     height: 43px;
-    margin: 0 23px 27px 19px;
+    margin: 0 23px 27px 21px;
     background: var(--unnamed-color-42a7c2) 0% 0% no-repeat padding-box;
     border-radius: 5px;
     display: flex;
@@ -216,7 +216,6 @@ body {
 
 .list-text {
     text-align: left;
-    width: 166px;
 }
 
 .list-text-1 {
