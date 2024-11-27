@@ -165,7 +165,7 @@ body {
     position: relative;
     margin-top: 10px;
     width: 220px;
-    height: 521px;
+    height: 527px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     border: 2px solid #E1E8EF;
 }
@@ -173,23 +173,35 @@ body {
 .logo {
     width: 163px;
     height: 54px;
-    margin: 32.03px 31px 17.86px 25.68px;
+    margin: 30.03px 29px 17.86px 23.68px;
     background: transparent url('../img/アートワーク 7.png') 0% 0% no-repeat padding-box;
 }
 
 .name {
     width: 176px;
     height: 43px;
-    margin: 0 23px 27px 21px;
+    margin: 0 23px 27px 19px;
     background: var(--unnamed-color-42a7c2) 0% 0% no-repeat padding-box;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 .name p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162px;
+    height: 27px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    font-style: normal;
+    text-align: center;
     letter-spacing: var(--unnamed-character-spacing-1-8);
     color: var(--unnamed-color-ffffff);
-    padding: 8px 6px 8px 8px;
-    text-align: center
+    margin: 8px 6px 8px 8px;
 }
 
 .list {
@@ -204,14 +216,63 @@ body {
 
 .list-text {
     text-align: left;
-    margin: 25px 0 21px 19px;
     width: 166px;
+}
+
+.list-text-1 {
+    margin: 25px 2px 21px 19px;
+    width: 166px;
+    height: 24px;
+}
+
+.list-text-2 {
+    margin: 26px 2px 20px 19px;
+    width: 166px;
+    height: 24px;
+}
+
+.list-text-3 {
+    width: 164px;
+    height: 33px;
+    margin: 28px 4px 9px 19px;
+}
+
+.list-text-4 {
+    width: 154px;
+    height: 24px;
+    margin: 26px 14px 20px 19px;
+}
+
+.list-text-5 {
+    width: 164px;
+    height: 33px;
+    margin: 26px 4px 11px 19px;
 }
 
 .list-icon {
     width: 9px;
     height: 14px;
     background: transparent url('../img/fa-solid fa-angle-right.png') 0% 0% no-repeat padding-box;
+}
+
+.list-icon-1{
+    margin: 26px 0 30.13px 0;
+}
+
+.list-icon-2{
+    margin: 27px 0 29.13px 0;
+}
+
+.list-icon-3{
+    margin: 30px 0 26.13px 0;
+}
+
+.list-icon-4{
+    margin: 28px 0 28.13px 0;
+}
+
+.list-icon-5{
+    margin: 29px 0 27.13px 0;
 }
 
 .content {
