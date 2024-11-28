@@ -1,41 +1,51 @@
 document.addEventListener("DOMContentLoaded", function () {
   const sideBar = document.getElementById("sideBar");
-  const hamburgerMenu = document.querySelector(".hamburger-menu");
+  const hamburgerMenu = document.getElementById("hamburger-menu");
+  const lists = document.querySelectorAll(".list")
+  const name = document.querySelector(".name")
 
-  // Function to update sidebar position
-  function updateSidebarPosition() {
-    if (window.innerWidth > 768) {
+  function updatePosition() {
+    if (window.innerWidth > 1200) {
       sideBar.style.top = `${window.scrollY}px`;
     } else {
       sideBar.style.top = "0";
     }
+    hamburgerMenu.style.top = `${window.scrollY}px`;
   }
 
-  // Scroll event listener
-  document.addEventListener("scroll", updateSidebarPosition);
+  document.addEventListener("scroll", updatePosition);
 
-  // Hamburger menu toggle
   hamburgerMenu.addEventListener("click", function () {
     sideBar.classList.toggle("active");
     hamburgerMenu.classList.toggle("active");
   });
 
-  // Close sidebar when clicking outside
+
   document.addEventListener("click", function (event) {
     if (
       !sideBar.contains(event.target) &&
       !hamburgerMenu.contains(event.target) &&
-      window.innerWidth <= 768
+      window.innerWidth <= 1200
     ) {
       sideBar.classList.remove("active");
       hamburgerMenu.classList.remove("active");
     }
   });
 
-  // Update sidebar position on window resize
-  window.addEventListener("resize", updateSidebarPosition);
+  
+  for (let list of lists) { 
+    list.addEventListener("click", function () {
+      sideBar.classList.remove("active");
+      hamburgerMenu.classList.remove("active");
+    });
+  }
 
-  // Initial call to set sidebar position
-  updateSidebarPosition();
+  name.addEventListener("click", function () {
+    sideBar.classList.remove("active");
+    hamburgerMenu.classList.remove("active");
+  });
+
+  window.addEventListener("resize", updatePosition);
+
+  updatePosition();
 });
-
